@@ -15,6 +15,16 @@ If the `Keep ComfyUI workflow` option is unchecked, the app functions as a stand
 
 This application allows users to convert images (primarily PNG files) to the WebP format while preserving metadata. It provides a simple GUI built with PyQt that enables users to select multiple images, specify the desired quality for the output WebP files, and choose whether to keep metadata from the original images. The application automatically handles filename conflicts by renaming files when necessary.
 
+## Changelog 22-12-2025
+
+- Added parallel workers and rewrote the whole thing, now the program never freezes while it's converting images
+- Added the option to delete original files
+- When you select images from an input folder, it automatically becomes the output folder unless you specify a different output folder
+- Added a fancy progress bar
+- Added an ETA as well
+- Added the buttons "Start" / "Pause" / "Resume" / "Cancel"
+- Added a fancy popup telling you how much GB you've saved at the end of conversions, it helps if you want to keep track
+
 ## Features
 
 - Convert images from [PNG,JPG,JPEG,BMP,TIFF] to WebP format with selected quality.
