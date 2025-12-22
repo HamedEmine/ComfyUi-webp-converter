@@ -1,7 +1,7 @@
 # ComfyUi-webp-converter
 ### Image Converter to WebP with Metadata
 
-## Summery
+## Summary
 Image Converter to WebP with Metadata. ComfyUi-webp-converter is normal webp-converter tool to convert images to WebP but with an additional option to keep ComfyUi workflow after conversion.
 
 This app can reduce image size by approximately 90%, compressing images from around 3.0 MB to 300 KB at a quality setting of `87`, which is my `preferred default`. It maintains excellent image quality, saves disk space, and preserves the ComfyUI workflow in the newly created WebP file for easy regeneration
